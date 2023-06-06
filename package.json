@@ -9,7 +9,7 @@
     "preview": "astro preview",
     "astro": "astro"
   },
-  "postbuild": "replace \"<!DOCTYPE html>\\s*\" \"<!DOCTYPE HTML PUBLIC \\\"-//W3C//DTD HTML 3.2 Final//EN\\\">\" -r --include=\"*.html\" -q",
+  "postbuild": "replace \"<!DOCTYPE html>\\s*\" \"<!DOCTYPE HTML PUBLIC \\\"-//W3C//DTD HTML 3.2 Final//EN\\\">\" -r --include=\"dist/*.html\" -q",
   "dependencies": {
     "astro": "^2.5.6"
   }
